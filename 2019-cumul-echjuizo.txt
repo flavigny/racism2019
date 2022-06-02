@@ -1,0 +1,59 @@
+LOEVINGR:CHEMIN=juifcumu,DATE=20200109;
+echelle:question,labels;
+LISTQ:10;
+listitem:10;
+INFILE:RACISME19- Cumul Volets.csv;
+QUESTION:NOM=APART,csv=Q7_4,MAX=5;
+   ITEM:1,1;
+   ITEM:2,2;
+   ITEM:3,3;
+   ITEM:4,1,4;
+   ITEM:5,2,4;
+   ITEM:6,3,4;
+QUESTION:NOM=COMAUTRE,csv=Q8_2,MAX=5;
+   ITEM:7,4;
+   ITEM:8,4,3;
+   ITEM:9,4,3,2;
+   ITEM:10,4,5;
+   ITEM:11,4,3,5;
+   ITEM:12,4,3,2,5;
+QUESTION:NOM=ISRAEL,csv=q8_9,csvplus=q8_9bis;
+   ITEM:13,1;
+   ITEM:14,1,2;
+   ITEM:15,1,2,3;
+   ITEM:16,1,5;
+   ITEM:17,1,2,5;
+   ITEM:18,1,2,3,5;
+QUESTION:NOM=ARGENT,csv=Q8_12,MAX=5;
+   ITEM:19,1;
+   ITEM:20,1,2;
+   ITEM:21,1,2,3;
+   ITEM:22,1,5;
+   ITEM:23,1,2,5;
+   ITEM:24,1,2,3,5;
+* GAFFE Q16_3 disparu
+*QUESTION:NOM=SALE,csv=Q16,MAX=5;
+*   ITEM:25,1;
+*   ITEM:26,1,2;
+*   ITEM:28,1,5;
+*   ITEM:29,1,2,5;
+QUESTION:NOM=POUVOIR,csv=Q18_8,MAX=5;
+   ITEM:31,1;
+   ITEM:32,1,2;
+   ITEM:33,1,2,3;
+   ITEM:34,1,5;
+   ITEM:35,1,2,5;
+   ITEM:36,1,2,3,5;
+QUESTION:NOM=SHOHA,csv=Q26,MAX=5;
+   ITEM:37,1;
+   ITEM:38,1,2;
+   ITEM:39,1,2,3;
+   ITEM:40,1,5;
+   ITEM:41,1,2,5;
+   ITEM:42,1,2,3,5;
+C:;
+C
+mi
+mq
+
+

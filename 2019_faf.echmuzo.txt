@@ -1,0 +1,83 @@
+LOEVINGR:CHEMIN=MUZOfaf,DATE=22jan20,TITRE;
+TITRE: format.csv ECHELLE ECHMUZO 2019-FAF ;
+ECHELLE:labels;
+LISTQ:20;
+*listitem:10;
+   INFILE:RACISM19 - Volet FAF.csv;
+   
+   QUESTION:NOM=MENACE,csv=Q8_13;
+   ITEM:1,1;
+   ITEM:2,1,2;
+   ITEM:3,1,2,3;
+   ITEM:4,1,5;
+   ITEM:5,1,2,5;
+   ITEM:6,1,2,3,5;
+  *  question:csv=q23_1bis;
+  *  item:97,0;
+   QUESTION:NOM=VOILE,csv=Q23_1 , csvplus=q23_1bis;
+   ITEM:7,1;
+   ITEM:8,1,2;
+   ITEM:9,1,2,3;
+   ITEM:10,1,5;
+   ITEM:11,1,2,5;
+   ITEM:12,1,2,3,5;
+   QUESTION:NOM=RAMADAN,csv=Q23_2;
+   ITEM:13,1;
+   ITEM:14,1,2;
+   ITEM:15,1,2,3;
+   ITEM:16,1,5;
+   ITEM:17,1,2,5;
+   ITEM:18,1,2,3,5;
+   QUESTION:NOM=PRIERE,csv=Q23_3;
+   ITEM:19,1;
+   ITEM:20,1,2;
+   ITEM:21,1,2,3;
+   ITEM:22,1,5;
+   ITEM:23,1,2,5;
+   ITEM:24,1,2,3,5;
+   QUESTION:NOM=PORC,csv=Q23_4;
+   ITEM:25,1;
+   ITEM:26,1,2;
+   ITEM:27,1,2,3;
+   ITEM:28,1,5;
+   ITEM:29,1,2,5;
+   ITEM:30,1,2,3,5;
+   QUESTION:NOM=AIDELKEB,csv=Q23_5;
+   ITEM:31,1;
+   ITEM:32,1,2;
+   ITEM:33,1,2,3;
+   ITEM:34,1,5;
+   ITEM:35,1,2,5;
+   ITEM:36,1,2,3,5;
+   QUESTION:NOM=INTEGR,csv=Q23_6;
+   ITEM:37,1;
+   ITEM:38,1,2;
+   ITEM:39,1,2,3;
+   ITEM:40,1,5;
+   ITEM:41,1,2,5;
+   ITEM:42,1,2,3,5;
+   QUESTION:NOM=MAHOMET,csv=Q23_7;
+   ITEM:43,1;
+   ITEM:44,1,2;
+   ITEM:45,1,2,3;
+   ITEM:46,1,5;
+   ITEM:47,1,2,5;
+   ITEM:48,1,2,3,5;
+   *QUESTION:NOM=BURKINI,csv=Q23_8;
+   *ITEM:49,1;
+   *ITEM:61,1,2;
+   *ITEM:62,1,2,3;
+   *ITEM:64,1,5;
+   *ITEM:65,1,2,5;
+   *ITEM:66,1,2,3,5;
+   *MUSCATHO en SPSS
+   *COMPUTE   MUSCATHO= Q21_5 * 10 + Q21_3.
+   *RECODE    MUSCATHO (21,31,32,41,42,43=1)(Else=0).
+   * je garde les question origine pour vérification
+
+   question:nom=muscatho, csv=q21_3,csvx10=Q21_5;
+   ITEM:56,21,31,32,41,42,43;
+ c:;
+mqmi
+
+ 
