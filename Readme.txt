@@ -6,7 +6,10 @@ ATTENTION: les fichiers de données ne sont pas disponibles ici; il sera seuleme
 à la contruction d'échelle avec les ensembles de questions et items préparés.
 
 chaque échelle est préparée par un fichier  nomechelle.txt
-
+les fichiers nomechelle.txt.txt sont le résultat de l'éxécution de la préparation
+ le travail est sauvegardé dans les fichiers  .001
+ (GAFFE: le nom du fichier de sauvenarde est donné dans la commaénde "CHEMIN" du fichier nomehelle.txt)
+ 
 MUZOCUM.001   2019_cumul.echmuzo.txt.txt
 ETHNOCUM.001  2019-cumul.ECHETHNO.txt.txt
 MUZOCUM1.001  2019_cumul.echmuzo_1a1.txt.txt
@@ -18,7 +21,7 @@ ETHNOOL.001   2019-ol-ECHETHNO.txt.txt
 JUIFOL.001    2019-ol-ECHJUIZO.txt.txt
 JUIFFAF.001   2019-FAF-echjuizo.txt.txt
 
-les fichiers nomechelle.txt.txt sont le résultat de l'éxécution de la préparation
 
 feuille de route:
-draguer le travail en cours xxxx.001 sur le programme SlCsv2019.exe
+draguer un travail en cours xxxx.001 sur le programme SlCsv2019.exe situé dans le dossier ../loevinger:
+
