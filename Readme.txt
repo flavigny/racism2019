@@ -24,4 +24,5 @@ JUIFFAF.001   2019-FAF-echjuizo.txt.txt
 
 feuille de route:
 draguer un travail en cours xxxx.001 sur le programme SlCsv2019.exe situé dans le dossier ../loevinger:
+https://github.com/flavigny/loevinger/blob/main/slcsv2019.exe
 
