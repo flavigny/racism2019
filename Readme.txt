@@ -2,7 +2,7 @@ Ce dossier contient des échelles reprises de la préparation du rapport 2020 de
 la COMMISSION NATIONALE CONSULTATIVE DES DROITS DE L’HOMME 
 https://www.cncdh.fr/sites/default/files/rapport_racisme2020_basse_def.pdf
 
-ATTENTION: les fichiers de données ne sont pas disponibles ici; il sera seulement possible au visiteur de jouer
+ATTENTION: les fichiers de l'enquête ne sont pas disponibles ici; il sera seulement possible au visiteur de jouer
 à la contruction d'échelle avec les ensembles de questions et items préparés.
 
 chaque échelle est préparée par un fichier  nomechelle.txt
